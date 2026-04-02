@@ -1,0 +1,13 @@
+# 🔥 News
+- *2026.03*: 🎤 Invited by [Prof. Dong Ni](https://scholar.google.com/citations?user=J27J2VUAAAAJ&hl=en&oi=sra) from Shenzhen University to present on Robotic Ultrasonography.
+- *2026.02*: 🎉 [UltraBot](https://www.nature.com/articles/s41467-025-62865-w) is selected by the Editors for the **Nature Collection** on ['Medical devices for low-resource settings'](https://www.nature.com/collections/aahhffbcag#:~:text=Towards%20expert%2Dlevel%20autonomous%20carotid%20ultrasonography%20with%20large%2Dscale%20learning%2Dbased%20robotic%20system).
+- *2026.02*: 📚 Two studies on humanoid robots, [DECO](https://baai-humanoid.github.io/DECO-webpage/) and [MOSAIC](https://baai-humanoid.github.io/MOSAIC/), have been released.  
+- *2026.02*: 🎤 I presented recent works on robotic ultrasound to [Prof. David Ouyang](https://douyang.github.io/)'s lab.
+- *2026.01*: 🎉 [UltraHiT](https://github.com/LeapLabTHU/UltraHiT) is accepted by **ICRA 2026**. Our first top-tier robotics conference paper. Congrats to Teng Wang, Yuxuan Wang!
+- *2025.10*: 🎉 [UltraBot](https://www.nature.com/articles/s41551-025-01546-x) highlighted by the **Chief Editor of Nature Biomedical Engineering (5-year IF=30.4)** [on the COVER of the October Issue](https://drive.google.com/file/d/1-QUk2mCtg2XD9cWI4EuDu3L0BNR141-V/view?usp=sharing)—the ONLY one of four featured studies to be highlighted by the editor-in-chief, alongside a [Science](https://www.nature.com/articles/s41551-025-01540-3) and two [Nature Medicine](https://www.nature.com/articles/s41551-025-01539-w) articles.
+- *2025.10*: 🎤 Invited by [Prof. Rajpurkar](https://dbmi.hms.harvard.edu/people/pranav-rajpurkar) from Harvard Medical School to present on [Robotic Ultrasonography](https://www.youtube.com/watch?v=YfVaboV46iE).​​
+- *2025.10*: 🎉 [UltraSeP](https://arxiv.org/abs/2408.15026) is accepted by **Pattern Recognition (IF=7.6)**!
+- *2025.09*: 🎉 [Best Thesis First Runner-Up Award](https://miccai.org/index.php/publications/newsletters/december-winter-2025/miccai-student-board-update/#:~:text=First%20Runner%2DUp,Tsinghua%20University%2C%20China) at the MICCAI 2025 for my Ph.D. Thesis!
+- *2025.09*: 🎤 Invited by [Prof. Jianchen Yang](https://jiancheng-yang.com/) from Aalto University to present on [Robotic Ultrasonography](https://www.bilibili.com/video/BV1GoWGzKEQu/?vd_source=17f8133aaca9f7f8e61c08b61e26d162).​​
+- *2025.09*: 🎉 [AdaptiveNN](https://www.arxiv.org/abs/2509.15333) is accepted by **Nature Machine Intelligence (5-year IF=31.8)**!
+- *2025.08*: 🎉 [UltraBot](https://github.com/LeapLabTHU/UltraBot) is accepted by **Nature Communications (5-year IF=17.2)**!
