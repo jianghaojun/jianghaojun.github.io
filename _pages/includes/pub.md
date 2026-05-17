@@ -89,9 +89,9 @@ _**International Conference on Medical Image Computing and Computer Assisted Int
 </div>
 </div>
 
+- `MICCAI 2026 Early Accept (Top 9%)` [VA-Adapter: Adapting Ultrasound Foundation Model to Echocardiography Probe Guidance](https://arxiv.org/abs/2510.06809), Teng Wang<sup>🌟</sup>, **Haojun Jiang**<sup>🌟</sup> et al.
 - `MICCAI ASMUS Oral 2024` [Structure-aware World Model for Probe Guidance via Large-scale Self-supervised Pre-train](https://arxiv.org/pdf/2406.19756?), **Haojun Jiang**<sup>🌟</sup>, Meng Li<sup>🌟</sup>, Zhenguo Sun<sup>🌟</sup>, et al.
 - `arXiv 2026` [UltraStar: Semantic-Aware Star Graph Modeling for Echocardiography Navigation](https://arxiv.org/pdf/2603.01461), Teng Wang<sup>🌟</sup>, **Haojun Jiang**<sup>🌟</sup> et al.
-- `arXiv 2025` [VA-Adapter: Adapting Ultrasound Foundation Model to Echocardiography Probe Guidance](https://arxiv.org/abs/2510.06809), Teng Wang<sup>🌟</sup>, **Haojun Jiang**<sup>🌟</sup> et al.
 - `CVPR 2025` [EchoWorld: Learning Motion-Aware World Models for Echocardiography Probe Guidance](https://openaccess.thecvf.com/content/CVPR2025/papers/Yue_EchoWorld_Learning_Motion-Aware_World_Models_for_Echocardiography_Probe_Guidance_CVPR_2025_paper.pdf), Yang Yue<sup>🌟</sup>, Yulin Wang<sup>🌟</sup>, **Haojun Jiang**, et al. [![](https://img.shields.io/github/stars/LeapLabTHU/EchoWorld?style=social&label=Code+Stars)](https://github.com/LeapLabTHU/EchoWorld)
 
 
