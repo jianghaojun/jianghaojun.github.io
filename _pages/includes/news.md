@@ -1,5 +1,5 @@
 # 🔥 News
-- *2026.05*: 🎉 [VA-Adapter](https://arxiv.org/pdf/2510.06809?) is early accepted by **MICCAI 2026 (Top 9%)** and won the **Best Poster Award** at the 41st Annual Youth Academic Conference of CAA. Congrats to Teng Wang!
+- *2026.05*: 🎉 [VA-Adapter](https://github.com/LeapLabTHU/VA-Adapter) is early accepted by **MICCAI 2026 (Top 9%)** and won the **Best Poster Award** at the 41st Annual Youth Academic Conference of CAA. Congrats to Teng Wang!
 - *2026.03*: 🎤 Invited by [Prof. Dong Ni](https://scholar.google.com/citations?user=J27J2VUAAAAJ&hl=en&oi=sra) from Shenzhen University to present on Robotic Ultrasonography.
 - *2026.02*: 🎉 [UltraBot](https://www.nature.com/articles/s41467-025-62865-w) is selected by the Editors for the **Nature Collection** on ['Medical devices for low-resource settings'](https://www.nature.com/collections/aahhffbcag#:~:text=Towards%20expert%2Dlevel%20autonomous%20carotid%20ultrasonography%20with%20large%2Dscale%20learning%2Dbased%20robotic%20system).
 - *2026.02*: 📚 Two studies on humanoid robots, [DECO](https://baai-humanoid.github.io/DECO-webpage/) and [MOSAIC](https://baai-humanoid.github.io/MOSAIC/), have been released.  
