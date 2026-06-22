@@ -1,5 +1,8 @@
 # 🥇 Honors and Awards
 ### During PhD
+- *2026.06* Tsinghua Excellent Doctoral Dissertation Award
+- *2026.06* Beijing Outstanding Graduate
+- *2026.06* Tsinghua Outstanding Graduate
 - *2025.09* [Best PhD Thesis First Runner-Up Award](https://drive.google.com/file/d/1WsTrBcYbeNuN6BubFezQugSxWc7XHyMB/view?usp=sharing) of MICCAI Society (3 Worldwide Each Year)
 - *2025.10* [UltraBot](https://www.nature.com/articles/s41551-025-01546-x) is highlighted by the Chief Editor of Nature Biomedical Engineering (IF=30.4) [on the COVER of the October Issue](https://drive.google.com/file/d/1-QUk2mCtg2XD9cWI4EuDu3L0BNR141-V/view?usp=sharing).
 - *2026.03* IEEE Robotics and Automation Society Travel Grant for ICRA.
