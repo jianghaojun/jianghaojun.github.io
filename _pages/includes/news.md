@@ -1,4 +1,5 @@
 # 🔥 News
+- *2026.06*: 🎉 Graduated with a Ph.D. from Tsinghua University, honored with the **Tsinghua Excellent Doctoral Dissertation Award**, **Beijing Outstanding Graduate**, and Tsinghua Outstanding Graduate.
 - *2026.06*: 🎉 [UltraStar](https://arxiv.org/pdf/2603.01461) is accepted by **MICCAI 2026**. Congrats to Teng Wang!
 - *2026.05*: 🎉 [VA-Adapter](https://github.com/LeapLabTHU/VA-Adapter) is early accepted by **MICCAI 2026 (Top 9%)** and won the **Best Poster Award** at the 41st Annual Youth Academic Conference of CAA. Congrats to Teng Wang!
 - *2026.03*: 🎤 Invited by [Prof. Dong Ni](https://scholar.google.com/citations?user=J27J2VUAAAAJ&hl=en&oi=sra) from Shenzhen University to present on Robotic Ultrasonography.
