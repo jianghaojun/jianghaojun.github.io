@@ -1,0 +1,58 @@
+primary_name: "Haojun Jiang"
+secondary_name: "蒋昊峻"
+navbar_name: "Haojun Jiang"
+
+positions:
+- name: AI for Healthcare & Robotics
+  logo: /assets/images/badges/THU.jpg
+- name: Postdoc @ JHU
+
+
+email: "jianghaojun2015@gmail.com"
+# cv_link: link-to-your-cv-file
+gscholar: ULmStp8AAAAJ
+github: jianghaojun
+twitter: HaojunJ
+# linkedin: your-linked-in-id
+orcid: 0000-0003-3377-1795
+dblp: https://dblp.org/pid/267/5754.html
+location: Beijing, China
+
+short_bio_text_justify: false
+short_bio: >-
+  <p>I work on AI for healthcare and robotics, with a particular focus on autonomous medical robots.</p>
+
+  <p>I am currently a postdoctoral researcher at <a href="https://www.jhu.edu/" target="_blank">Johns Hopkins University</a>, working with <a href="https://engineering.jhu.edu/faculty/mathias-unberath/" target="_blank">Mathias Unberath</a> and <a href="https://engineering.jhu.edu/faculty/axel-krieger/" target="_blank">Axel Krieger</a> on surgical automation.</p>
+
+  <p>Previously, I completed my Ph.D. at <a href="https://www.leaplab.ai/" target="_blank">LEAPLab</a>, <a href="https://www.au.tsinghua.edu.cn/en/" target="_blank">Department of Automation</a>, <a href="https://www.tsinghua.edu.cn/en/" target="_blank">Tsinghua University</a>, advised by <a href="https://gaohuang-net.github.io/" target="_blank">Prof. Gao Huang</a>. At Tsinghua, I led research on autonomous robotic ultrasonography. Our carotid ultrasound robot <a href="https://www.nature.com/articles/s41467-025-62865-w" target="_blank">UltraBot</a> appeared in <em>Nature Communications</em> and was highlighted by the Chief Editor of <em>Nature Biomedical Engineering</em>. My Ph.D. thesis received the MICCAI Best Ph.D. Thesis First Runner-Up Award and the Tsinghua Excellent Doctoral Dissertation Award. Before that, I received my B.Eng. degree in Automation at <a href="https://www.tsinghua.edu.cn/en/" target="_blank">Tsinghua University</a>.</p>
+
+
+portrait_url: /assets/images/photos/jhj_photo.jpg
+# portrait_caption: >-
+#   Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
+
+education:
+- name: Tsinghua University
+  logo: /assets/images/badges/THU.jpg
+  position: Ph.D., Department of Automation
+  advisor: Advised by Prof. Gao Huang
+  date: Aug. 2020 - Jun. 2026
+- name: Tsinghua University
+  logo: /assets/images/badges/THU.jpg
+  position: B.Eng., Department of Automation
+  date: Jul. 2015 - Jun. 2020
+
+
+awards:
+- name: Tsinghua Excellent Doctoral Dissertation Award
+  date: 2026
+- name: Tsinghua Outstanding Graduate
+  date: 2026
+- name: Beijing Outstanding Graduate
+  date: 2026
+- name: IEEE Robotics and Automation Society Travel Grant
+  date: 2026
+- name: MICCAI Best Ph.D. Thesis First Runner-Up Award
+  date: 2025
+- name: UltraBot Highlighted by the NBE Chief Editor
+  date: 2025

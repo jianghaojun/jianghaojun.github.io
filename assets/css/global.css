@@ -1,0 +1,240 @@
+@charset "utf-8";
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    padding-top: 5.0rem;
+}
+
+:root {
+    --clinical-blue: #155eef;
+    --clinical-navy: #102a43;
+}
+
+a { color: var(--clinical-blue); }
+.navbar.bg-dark { background: var(--clinical-navy) !important; }
+.activity-list { padding-left: 1.15rem; }
+.activity-list li { margin-bottom: 0.65rem; }
+.activity-list li > span {
+    display: inline-block;
+    min-width: 5.75rem;
+    color: #6c757d;
+    font-style: italic;
+}
+
+.highlight-link {
+    display: block;
+    color: #343a40;
+    font-size: 0.9rem;
+    line-height: 1.35;
+}
+
+.highlight-link:hover { text-decoration: none; color: var(--clinical-blue); }
+
+.highlight-image {
+    width: 100%;
+    height: auto;
+    aspect-ratio: auto;
+    margin-bottom: 0.55rem;
+    border: 1px solid #e9ecef;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+    font-weight: 700;
+}
+
+.card {
+    border-radius: 0.8rem!important;
+}
+
+.card-img-overlay {
+    border-radius: 0.8rem!important;
+}
+
+.rounded-xl {
+    border-radius: 0.8rem!important;
+}
+
+.rounded-xl-bottom {
+    border-bottom-right-radius: 0.8rem !important;
+    border-bottom-left-radius: 0.8rem !important;
+}
+
+.rounded-xl-top {
+    border-top-left-radius: 0.8rem !important;
+    border-top-right-radius: 0.8rem !important;
+}
+
+
+.text-profile-position {
+    font-weight: 400;
+}
+
+.text-profile-bio {
+    /* font-family: "Raleway"; */
+    font-weight: 400;
+}
+
+.navbar {
+    opacity: 0.95;
+}
+
+.inline-badge {
+    height: 16px;
+    vertical-align: -10%;
+    margin-right: 2px;
+    line-break: unset;
+}
+
+.no-break {
+    white-space: nowrap;
+}
+
+.cover-image {
+    width: 180px;
+    max-height: 120px;
+}
+
+.abstract-body {
+    min-height: 100px;
+}
+
+img.lazy {
+    background-image: url('images/loading.gif');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 50px 50px;
+    min-height: 80px;
+}
+
+div.lazy {
+    background-image: url('images/loading.gif');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 50px 50px;
+    min-height: 80px;
+}
+
+.badge-publication {
+    font-size: 100%;
+}
+
+.publication-card h5 {
+    font-size: 1.05rem;
+    line-height: 1.35;
+}
+
+.email-text {
+    font-family: Source Code Pro, monospace;
+}
+
+.profile-email {
+    display: inline-block;
+    white-space: nowrap;
+    font-size: 0.72rem;
+    letter-spacing: -0.02em;
+}
+
+.publication-abstract summary {
+    cursor: pointer;
+    user-select: none;
+    width: fit-content;
+}
+
+.publication-abstract[open] summary {
+    margin-bottom: 0.15rem;
+}
+
+.publication-cover {
+    display: block;
+    width: 100%;
+    height: 170px;
+    object-fit: contain;
+    object-position: center;
+    background: #fff;
+}
+
+@media (max-width: 767.98px) {
+    .publication-cover { height: 210px; }
+}
+
+.news-date {
+    flex: 0 0 5.5rem;
+    white-space: nowrap;
+}
+
+.news-copy { min-width: 0; }
+
+.news-more > summary {
+    cursor: pointer;
+    list-style: none;
+    user-select: none;
+    width: fit-content;
+}
+
+.news-more > summary::-webkit-details-marker { display: none; }
+.news-more-open { display: none; }
+.news-more[open] .news-more-closed { display: none; }
+.news-more[open] .news-more-open { display: inline; }
+
+@media (max-width: 575.98px) {
+    .news-row { display: block !important; }
+    .news-date { margin-bottom: 0.2rem; }
+}
+
+/* Portrait cropping helpers */
+.portrait-crop-fixed {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.portrait-crop-square {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    object-position: center;
+}
+
+.portrait-full {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    object-position: center;
+}
+
+.portrait-crop-circle-sm {
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.institution-logo-fixed {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    flex: 0 0 24px;
+    margin-right: 0.5rem;
+    border-radius: 50%;
+    background: #fff;
+    border: 1px solid #e9ecef;
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+.institution-logo-placeholder {
+    width: 24px;
+    height: 24px;
+    flex: 0 0 24px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #6c757d;
+    border-radius: 50%;
+    background: #fff;
+    border: 1px solid #e9ecef;
+    box-sizing: border-box;
+    font-size: 12px;
+}

@@ -1,0 +1,36 @@
+{% assign max_news = include.limit | default: 100 %}
+{% assign sorted_news = site.news | sort: "date" | reverse | slice: 0, max_news %}
+{% assign visible_news = sorted_news | slice: 0, 5 %}
+{% assign remaining_count = sorted_news.size | minus: 5 %}
+{% if remaining_count > 0 %}
+  {% assign hidden_news = sorted_news | slice: 5, remaining_count %}
+{% endif %}
+
+<div class="my-3 bg-white shadow-sm rounded-xl">
+    <h6 class="p-3 mb-0 border-bottom border-gray"><i class="fas fa-rss"></i> News</h6>
+    <div class="px-3 pb-1 small news-list">
+        {% for item in visible_news %}
+        <div class="news-row d-flex py-2 {% unless forloop.last and remaining_count <= 0 %}border-bottom border-gray{% endunless %}">
+            <div class="news-date text-muted mr-3"><i>{{ item.date | date: "%b %Y" }}</i></div>
+            <div class="news-copy">{{ item.title }}</div>
+        </div>
+        {% endfor %}
+
+        {% if remaining_count > 0 %}
+        <details class="news-more">
+            <summary class="py-2 text-primary">
+                <span class="news-more-closed"><i class="fas fa-chevron-down mr-1"></i> Show {{ remaining_count }} more news items</span>
+                <span class="news-more-open"><i class="fas fa-chevron-up mr-1"></i> Hide older news</span>
+            </summary>
+            <div class="news-more-items border-top border-gray">
+                {% for item in hidden_news %}
+                <div class="news-row d-flex py-2 {% unless forloop.last %}border-bottom border-gray{% endunless %}">
+                    <div class="news-date text-muted mr-3"><i>{{ item.date | date: "%b %Y" }}</i></div>
+                    <div class="news-copy">{{ item.title }}</div>
+                </div>
+                {% endfor %}
+            </div>
+        </details>
+        {% endif %}
+    </div>
+</div>
