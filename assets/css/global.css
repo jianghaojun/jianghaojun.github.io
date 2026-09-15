@@ -7,7 +7,7 @@ body {
 
 :root {
     --clinical-blue: #155eef;
-    --clinical-navy: #102a43;
+    --clinical-navy: #3b4248;
 }
 
 a { color: var(--clinical-blue); }
