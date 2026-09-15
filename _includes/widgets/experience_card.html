@@ -1,50 +1,44 @@
-<div class="row mt-3">
-    <div class="col">
-        <div class="card border-0 shadow-sm bg-white">
+<section class="row mt-3 mb-3">
+    {% if site.data.profile.education %}
+    <div class="col-lg-5 mb-3 mb-lg-0">
+        <div class="card border-0 shadow-sm bg-white h-100">
             <div class="card-body p-4">
-                <div class="row" data-masonry='{"percentPosition": true }'>
-                    {% if site.data.profile.education %}
-                    <div class="col-lg-5">
-                        <div class="mx-2 my-1">
-                            <h6>Education</h6>
-                            <ul class="list-unstyled mb-1">
-                                {% for item in site.data.profile.education %}
-                                <li class="media mb-1">
-                                    <img src="{{ item.logo | relative_url }}" alt="{{ item.name }}" class="mt-1 institution-logo-fixed">
-                                    <div class="media-body">
-                                        <div>{{ item.name }}</div>
-                                        <div class="small">{{ item.position }}</div>
-                                        {% if item.advisor %}<div class="small">{{ item.advisor }}</div>{% endif %}
-                                        <div class="small text-muted"><em>{{ item.date }}</em></div>
-                                    </div>
-                                </li>
-                                {% endfor %}
-                            </ul>
+                <h6>Education</h6>
+                <ul class="list-unstyled mb-0">
+                    {% for item in site.data.profile.education %}
+                    <li class="media{% unless forloop.last %} mb-3{% endunless %}">
+                        <img src="{{ item.logo | relative_url }}" alt="{{ item.name }}" class="mt-1 institution-logo-fixed">
+                        <div class="media-body">
+                            <div><strong>{{ item.name }}</strong></div>
+                            <div class="small">{{ item.position }}</div>
+                            {% if item.advisor %}<div class="small">{{ item.advisor }}</div>{% endif %}
+                            <div class="small text-muted"><em>{{ item.date }}</em></div>
                         </div>
-                    </div>
-                    {% endif %}
-
-                    {% if site.data.profile.awards %}
-                    <div class="col-lg-7">
-                        <div class="mx-2 my-1">
-                            <h6>Honors & Awards</h6>
-                            <ul class="list small pl-3 mb-1">
-                                {% for item in site.data.profile.awards %}
-                                <li>
-                                    <div class="d-flex">
-                                        <div>{{ item.name }}</div>
-                                        <div class="ml-auto mt-auto no-break"><em>{{ item.date }}</em></div>
-                                    </div>
-                                </li>
-                                {% endfor %}
-                            </ul>
-                        </div>
-                    </div>
-                    {% endif %}
-
-                </div>
-
+                    </li>
+                    {% endfor %}
+                </ul>
             </div>
         </div>
     </div>
-</div>
+    {% endif %}
+
+    {% if site.data.profile.awards %}
+    <div class="col-lg-7">
+        <div class="card border-0 shadow-sm bg-white h-100">
+            <div class="card-body p-4">
+                <h6>Honors &amp; Awards</h6>
+                <ul class="small pl-3 mb-0">
+                    {% for item in site.data.profile.awards %}
+                    <li>
+                        <div class="d-flex">
+                            <div>{{ item.name }}</div>
+                            <div class="ml-auto mt-auto no-break"><em>{{ item.date }}</em></div>
+                        </div>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+    {% endif %}
+</section>
