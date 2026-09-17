@@ -1,9 +1,9 @@
 {% assign max_news = include.limit | default: 100 %}
 {% assign sorted_news = site.news | sort: "date" | reverse | slice: 0, max_news %}
-{% assign visible_news = sorted_news | slice: 0, 5 %}
-{% assign remaining_count = sorted_news.size | minus: 5 %}
+{% assign visible_news = sorted_news | slice: 0, 2 %}
+{% assign remaining_count = sorted_news.size | minus: 2 %}
 {% if remaining_count > 0 %}
-  {% assign hidden_news = sorted_news | slice: 5, remaining_count %}
+  {% assign hidden_news = sorted_news | slice: 2, remaining_count %}
 {% endif %}
 
 <div class="my-3 bg-white shadow-sm rounded-xl">
