@@ -135,6 +135,13 @@ div.lazy {
     letter-spacing: -0.02em;
 }
 
+.page-view-counter {
+    display: inline-block;
+    height: 20px;
+    width: auto;
+    vertical-align: middle;
+}
+
 .publication-abstract summary {
     cursor: pointer;
     user-select: none;
