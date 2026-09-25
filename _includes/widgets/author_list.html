@@ -1,11 +1,25 @@
 {%- assign authors = include.authors -%}
 {%- assign has_eq_contrib = false -%}
 {%- assign has_corresponding = false -%}
+{%- assign has_mentor = false -%}
+{%- assign dagger_note = include.dagger_note | default: "mentored this work" -%}
+{%- assign note_symbol = "†" -%}
 
 {%- for _key in authors -%}
     {%- assign last_char = _key | slice: -1, 1%}
     {%- assign last_2chars = _key | slice: -2, 2%}
-    {%- if last_2chars == "*#" or last_2chars == "#*" -%}
+    {%- if last_2chars == "*‡" or last_2chars == "‡*" -%}
+        {%- assign key = _key | replace: "*‡", "" | replace: "‡*", "" -%}
+        {%- assign mark = "*<sup>‡</sup>" -%}
+        {%- assign has_eq_contrib = true -%}
+        {%- assign has_mentor = true -%}
+        {%- assign note_symbol = "‡" -%}
+    {%- elsif last_2chars == "*†" or last_2chars == "†*" -%}
+        {%- assign key = _key | replace: "*†", "" | replace: "†*", "" -%}
+        {%- assign mark = "*<sup>†</sup>" -%}
+        {%- assign has_eq_contrib = true -%}
+        {%- assign has_mentor = true -%}
+    {%- elsif last_2chars == "*#" or last_2chars == "#*" -%}
         {%- assign key = _key | replace: "#*", "" | replace: "*#", "" -%}
         {%- assign mark = "*<sup>#</sup>" -%}
         {%- assign has_eq_contrib = true -%}
@@ -18,6 +32,15 @@
         {%- assign key = _key | split: "#" | first -%}
         {%- assign mark = '<sup>#</sup>' -%}
         {%- assign has_corresponding = true -%}
+    {%- elsif last_char == "†" -%}
+        {%- assign key = _key | split: "†" | first -%}
+        {%- assign mark = '<sup>†</sup>' -%}
+        {%- assign has_mentor = true -%}
+    {%- elsif last_char == "‡" -%}
+        {%- assign key = _key | split: "‡" | first -%}
+        {%- assign mark = '<sup>‡</sup>' -%}
+        {%- assign has_mentor = true -%}
+        {%- assign note_symbol = "‡" -%}
     {%- else -%}
         {%- assign key = _key -%}
         {%- assign mark = "" -%}
@@ -47,7 +70,7 @@
 
 {%- endfor -%}
 
-{%- if has_eq_contrib or has_corresponding %}
+{%- if has_eq_contrib or has_corresponding or has_mentor %}
 <mark>(
     {%- if has_eq_contrib -%}
         * <i> equal contribution</i>
@@ -55,6 +78,10 @@
     {%- if has_corresponding -%}
         {%- if has_eq_contrib -%}, {% endif -%}
         <sup>#</sup> <i> corresponding author</i>
+    {%- endif -%}
+    {%- if has_mentor -%}
+        {%- if has_eq_contrib or has_corresponding -%}, {% endif -%}
+        <sup>{{ note_symbol }}</sup> <i> {{ dagger_note }}</i>
     {%- endif -%}
 )</mark>
 {%- endif -%}

@@ -4,6 +4,7 @@ date: 2021-01-01
 selected: false
 pub: "IEEE Transactions on Image Processing (TIP)"
 pub_date: "2021"
+cover: /assets/images/covers/spatial-feature-refinement.png
 authors:
   - Yizeng Han
   - Gao Huang

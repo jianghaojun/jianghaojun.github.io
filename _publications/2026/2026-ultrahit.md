@@ -3,14 +3,15 @@ title: "UltraHiT: A Hierarchical Transformer Architecture for Generalizable Inte
 date: 2026-05-01
 selected: true
 selected_order: 4
-pub: "ICRA"
+dagger_note: "mentored this work"
+pub: "IEEE International Conference on Robotics and Automation (ICRA)"
 pub_date: "2026"
 abstract: >-
   A hierarchical Transformer architecture for generalizable internal carotid artery robotic ultrasonography, combining the strengths of learning-based and knowledge-based guidance.
 cover: /assets/images/covers/ultrahit.png?v=2
 authors:
   - Teng Wang*
-  - Haojun Jiang*
+  - Haojun Jiang*‡
   - Yuxuan Wang*
   - Zhenguo Sun
   - Xiangjie Yan

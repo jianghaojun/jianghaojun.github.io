@@ -4,6 +4,7 @@ date: 2024-01-01
 selected: false
 pub: "Pattern Recognition"
 pub_date: "2024"
+cover: /assets/images/covers/text4point.png
 authors:
   - Rui Huang*
   - Xuran Pan*

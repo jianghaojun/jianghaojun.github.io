@@ -4,6 +4,7 @@ date: 2024-09-01
 selected: false
 pub: "MICCAI ASMUS Workshop"
 pub_date: "2024"
+cover: /assets/images/covers/structure-aware-world-model.png
 pub_last: '<span class="badge badge-pill badge-publication badge-info">Oral</span>'
 authors:
   - Haojun Jiang*

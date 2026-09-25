@@ -4,6 +4,7 @@ date: 2022-01-20
 selected: false
 pub: "IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)"
 pub_date: "2022"
+cover: /assets/images/covers/glance-focus.png
 authors:
   - Gao Huang*
   - Yulin Wang*

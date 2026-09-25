@@ -3,6 +3,7 @@ title: "UltraBot: Towards Expert-level Autonomous Carotid Ultrasonography with L
 date: 2025-08-01
 selected: true
 selected_order: 1
+dagger_note: "project lead"
 pub: "Nature Communications"
 pub_date: "2025"
 pub_last: '<span class="badge badge-pill badge-publication badge-info">IF = 18.1</span> <span class="badge badge-pill badge-publication badge-danger">Nature Biomedical Engineering Chief Editor Highlight</span>'
@@ -10,7 +11,7 @@ abstract: >-
   A large-scale learning-based robotic system for autonomous carotid ultrasonography. The work was highlighted on the cover of Nature Biomedical Engineering and selected for Nature's collection on medical devices for low-resource settings.
 cover: /assets/images/covers/ultrabot.png?v=2
 authors:
-  - Haojun Jiang*
+  - Haojun Jiang*†
   - Andrew Zhao*
   - Qian Yang*
   - Xiangjie Yan

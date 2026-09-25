@@ -4,6 +4,7 @@ date: 2025-06-01
 selected: false
 pub: "IEEE Conference on Computer Vision and Pattern Recognition (CVPR)"
 pub_date: "2025"
+cover: /assets/images/covers/echoworld.png
 authors:
   - Yang Yue*
   - Yulin Wang*

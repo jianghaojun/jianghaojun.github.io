@@ -4,6 +4,7 @@ date: 2025-09-01
 selected: false
 pub: "Nature Machine Intelligence"
 pub_date: "2025"
+cover: /assets/images/covers/adaptive-nn.png
 authors:
   - Yulin Wang*
   - Yang Yue (乐洋)*

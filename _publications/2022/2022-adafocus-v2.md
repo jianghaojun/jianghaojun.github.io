@@ -4,6 +4,7 @@ date: 2022-06-01
 selected: false
 pub: "IEEE Conference on Computer Vision and Pattern Recognition (CVPR)"
 pub_date: "2022"
+cover: /assets/images/covers/adafocus-v2.png
 authors:
   - Yulin Wang*
   - Yue Yang*

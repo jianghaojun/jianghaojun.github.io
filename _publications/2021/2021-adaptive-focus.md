@@ -4,6 +4,7 @@ date: 2021-10-01
 selected: false
 pub: "IEEE International Conference on Computer Vision (ICCV)"
 pub_date: "2021"
+cover: /assets/images/covers/adaptive-focus.png
 pub_last: '<span class="badge badge-pill badge-publication badge-info">Oral</span>'
 authors:
   - Yulin Wang*
