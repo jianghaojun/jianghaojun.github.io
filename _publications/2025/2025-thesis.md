@@ -1,7 +1,8 @@
 ---
 title: "Towards AI-guided Cardiovascular Ultrasonography with Large-scale Implicit Structural Learning"
 date: 2025-09-25
-selected: false
+selected: true
+selected_order: 2
 pub: "MICCAI Doctoral Consortium"
 pub_date: "2025"
 pub_last: '<span class="badge badge-pill badge-publication badge-danger">MICCAI Best Ph.D. Thesis First Runner-Up Award</span>'

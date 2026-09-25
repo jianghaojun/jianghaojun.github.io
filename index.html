@@ -27,11 +27,9 @@ navbar_title: Home
         include widgets/publication_card.html
         publications=pubs
         title='<i class="fas fa-star"></i> Selected Publications'
-        limit=4
+        limit=5
         %}
         {% endif %}
-
-        {% include widgets/recent_talks.html %}
 
         {% if site.data.display.homepage.show_experience %}
             {% include widgets/experience_card.html %}
@@ -42,5 +40,7 @@ navbar_title: Home
         {% endif %}
 
         {% include widgets/academic_service.html %}
+
+        {% include widgets/recent_talks.html %}
     </div>
 </div>

@@ -7,7 +7,7 @@
 {% endif %}
 
 <div class="my-3 bg-white shadow-sm rounded-xl">
-    <h6 class="p-3 mb-0 border-bottom border-gray"><i class="fas fa-rss"></i> News</h6>
+    <h2 class="h5 section-heading p-3 mb-0 border-bottom border-gray"><i class="fas fa-newspaper"></i> News</h2>
     <div class="px-3 pb-1 small news-list">
         {% for item in visible_news %}
         <div class="news-row d-flex py-2 {% unless forloop.last and remaining_count <= 0 %}border-bottom border-gray{% endunless %}">

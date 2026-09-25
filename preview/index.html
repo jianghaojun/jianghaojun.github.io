@@ -71,7 +71,7 @@
       <div class="col-lg-9 col-md-8">
         <section class="card border-0 shadow-sm bg-white">
           <div class="card-body p-4 p-lg-5">
-            <h2 class="h3 mb-3">About Me</h2>
+            <h2 class="h5 section-heading mb-3"><i class="fas fa-user"></i> About Me</h2>
             <div class="text-profile-bio">
               <p>I work on AI for healthcare and robotics, with a particular focus on autonomous medical robots.</p>
               <p>I am currently a postdoctoral researcher at <a href="https://www.jhu.edu/" target="_blank">Johns Hopkins University</a>, working with <a href="https://engineering.jhu.edu/faculty/mathias-unberath/" target="_blank">Mathias Unberath</a> and <a href="https://engineering.jhu.edu/faculty/axel-krieger/" target="_blank">Axel Krieger</a> on surgical automation.</p>
@@ -82,7 +82,7 @@
         </section>
 
         <section class="my-3 bg-white shadow-sm rounded-xl">
-          <h2 class="h6 p-3 mb-0 border-bottom border-gray"><i class="fas fa-rss"></i> News</h2>
+          <h2 class="h5 section-heading p-3 mb-0 border-bottom border-gray"><i class="fas fa-newspaper"></i> News</h2>
           <div class="px-3 pb-2 small">
             <div class="news-row d-flex py-2 border-bottom"><div class="news-date text-muted mr-3"><i>Sep. 2026</i></div><div class="news-copy">Joined <strong>Johns Hopkins University</strong> as a postdoctoral fellow, focusing on autonomous surgical systems.</div></div>
             <div class="news-row d-flex py-2 border-bottom"><div class="news-date text-muted mr-3"><i>Sep. 2026</i></div><div class="news-copy">Invited to serve as an <strong>Area Chair for CVPR 2027</strong>.</div></div>
@@ -115,7 +115,7 @@
         </section>
 
         <section class="my-3 p-3 bg-white shadow-sm rounded-xl">
-          <h2 class="h6 border-bottom border-gray pb-3 mb-3"><i class="fas fa-heartbeat"></i> Research Highlights</h2>
+          <h2 class="h5 section-heading border-bottom border-gray pb-3 mb-3"><i class="fas fa-lightbulb"></i> Research Highlights</h2>
           <div class="row">
             <div class="col-sm-6 mb-3 mb-sm-0">
               <a href="https://www.nature.com/articles/s41551-025-01546-x" target="_blank" class="highlight-link">
@@ -134,13 +134,18 @@
 
         <section id="publications" class="preview-section my-3 p-0 bg-white shadow-sm rounded-xl">
           <div class="d-flex align-items-center justify-content-between border-bottom border-gray p-3">
-            <h2 class="h6 mb-0"><i class="fas fa-star"></i> Selected Publications</h2>
+            <h2 class="h5 section-heading mb-0"><i class="fas fa-star"></i> Selected Publications</h2>
             <a class="btn btn-sm btn-outline-primary ml-3 no-break" href="publications.html">View all <i class="fas fa-angle-right ml-1"></i></a>
           </div>
 
           <article class="row no-gutters border-bottom publication-row">
             <div class="col-md-3 p-3"><img src="../assets/images/covers/ultrabot.png?v=2" alt="UltraBot" class="publication-cover rounded-sm"></div>
             <div class="col-md-9 p-3 pl-md-0"><h3 class="h5 font-weight-normal mb-1">UltraBot: Towards Expert-level Autonomous Carotid Ultrasonography with Large-scale Learning-based Robotic System</h3><p class="small mb-0"><strong>Haojun Jiang*<sup>†</sup></strong>, Andrew Zhao*, Qian Yang*, Xiangjie Yan, Teng Wang, Yulin Wang, Ning Jia, Jiangshan Wang, Guokun Wu, Yang Yue, Shaqi Luo, Huanqian Wang, Ling Ren, Siming Chen, Pan Liu, Guocai Yao, Wenming Yang, Shiji Song, Xiang Li, Kunlun He, Gao Huang <mark>(* <i>equal contribution</i>, <sup>†</sup> <i>project lead</i>)</mark></p><p class="small mb-1"><em>Nature Communications</em> 2025 <span class="badge badge-info">IF = 18.1</span> <span class="badge badge-danger">Nature Biomedical Engineering Chief Editor Highlight</span></p><p class="small mb-0"><a href="https://www.nature.com/articles/s41467-025-62865-w" target="_blank">[Paper]</a> <a href="https://github.com/LeapLabTHU/UltraBot" target="_blank">[Code]</a> <a href="https://www.nature.com/articles/s41551-025-01546-x" target="_blank">[Highlight]</a></p></div>
+          </article>
+
+          <article class="row no-gutters border-bottom publication-row">
+            <div class="col-md-3 p-3"><img src="../assets/images/covers/miccai25_thesis.png" alt="Towards AI-guided Cardiovascular Ultrasonography" class="publication-cover rounded-sm"></div>
+            <div class="col-md-9 p-3 pl-md-0"><h3 class="h5 font-weight-normal mb-1">Towards AI-guided Cardiovascular Ultrasonography with Large-scale Implicit Structural Learning</h3><p class="small mb-0"><strong>Haojun Jiang</strong>, Gao Huang</p><p class="small mb-1"><em>MICCAI Doctoral Consortium</em> 2025 <span class="badge badge-danger">MICCAI Best Ph.D. Thesis First Runner-Up Award</span></p><p class="small mb-0"><a href="https://drive.google.com/file/d/1TIGpp735KtwBL4coieHFdGGkqbq6wTcb/view?usp=sharing" target="_blank">[Paper]</a></p></div>
           </article>
 
           <article class="row no-gutters border-bottom publication-row">
@@ -160,41 +165,19 @@
         </section>
 
         <section id="activities" class="preview-section mt-3">
-          <div class="card border-0 shadow-sm bg-white mb-3">
-            <div class="card-body p-4">
-              <h2 class="h5"><i class="fas fa-microphone text-primary"></i> Recent Talks</h2>
-              <ul class="activity-list small mb-0">
-                <li><span>Sep. 2026</span> Autonomous Robotic Cardiovascular Ultrasound — <a href="https://sites.google.com/view/homepageoflixiang" target="_blank" rel="noopener">Prof. Xiang Li</a> and <a href="https://www.surgery.cuhk.edu.hk/profile.asp?alias=lizheng" target="_blank" rel="noopener">Prof. Zheng Li</a></li>
-                <li><span>Mar. 2026</span> Autonomous Robotic Cardiovascular Ultrasound — <a href="https://scholar.google.com/citations?user=J27J2VUAAAAJ&amp;hl=en&amp;oi=sra" target="_blank" rel="noopener">Prof. Dong Ni's lab</a></li>
-                <li><span>Feb. 2026</span> Autonomous Robotic Cardiovascular Ultrasound — <a href="https://scholar.google.com/citations?user=on2DUKoAAAAJ&amp;hl=en&amp;oi=ao" target="_blank" rel="noopener">Prof. David Ouyang's lab</a></li>
-                <li><span>Oct. 2025</span> Intelligent Ultrasound Robot — <a href="https://pranavrajpurkar.com/" target="_blank" rel="noopener">Prof. Pranav Rajpurkar's lab</a> · <a href="https://www.youtube.com/watch?v=YfVaboV46iE" target="_blank" rel="noopener">English video</a></li>
-                <li><span>Sep. 2025</span> Intelligent Ultrasound Robot — <a href="https://hit-webinar.com/" target="_blank" rel="noopener">HiT Webinar</a> · <a href="https://www.bilibili.com/video/BV1GoWGzKEQu/" target="_blank" rel="noopener">Chinese video</a></li>
-                <li><span>Sep. 2025</span> Intelligent Ultrasound Robot — <a href="https://miccaimsb.github.io/msb-doctoral25/agenda.html" target="_blank" rel="noopener">MICCAI 2025 Doctoral Consortium</a></li>
-              </ul>
-            </div>
-          </div>
-
           <section class="row mb-3">
-            <div class="col-lg-5 mb-3 mb-lg-0">
+            <div class="col-12">
               <div class="card border-0 shadow-sm bg-white h-100">
                 <div class="card-body p-4">
-                  <h2 class="h6">Education</h2>
-                  <div class="media mb-3"><img src="../assets/images/badges/THU.jpg" alt="Tsinghua" class="institution-logo-fixed"><div class="media-body"><strong>Tsinghua University</strong><div class="small">Ph.D., Department of Automation</div><div class="small">Advised by Prof. Gao Huang</div><div class="small text-muted">Aug. 2020 – Jun. 2026</div></div></div>
-                  <div class="media"><img src="../assets/images/badges/THU.jpg" alt="Tsinghua" class="institution-logo-fixed"><div class="media-body"><strong>Tsinghua University</strong><div class="small">B.Eng., Department of Automation</div><div class="small text-muted">Jul. 2015 – Jun. 2020</div></div></div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-7">
-              <div class="card border-0 shadow-sm bg-white h-100">
-                <div class="card-body p-4">
-                  <h2 class="h6">Honors &amp; Awards</h2>
+                  <h2 class="h5 section-heading"><i class="fas fa-award"></i> Honors &amp; Awards</h2>
                   <ul class="small pl-3 mb-0">
-                    <li>Tsinghua Excellent Doctoral Dissertation Award <em class="float-right">2026</em></li>
-                    <li>Tsinghua Outstanding Graduate <em class="float-right">2026</em></li>
-                    <li>Beijing Outstanding Graduate <em class="float-right">2026</em></li>
+                    <li>Beijing Outstanding Graduate (Top 5 in the Department of Automation, THU) <em class="float-right">2026</em></li>
+                    <li>Tsinghua Excellent Doctoral Dissertation Award (Top 5 in the Department of Automation, THU) <em class="float-right">2026</em></li>
+                    <li>Tsinghua Outstanding Graduate (Top 5 in the Department of Automation, THU) <em class="float-right">2026</em></li>
                     <li>IEEE Robotics and Automation Society Travel Grant <em class="float-right">2026</em></li>
-                    <li>MICCAI Best Ph.D. Thesis First Runner-Up Award <em class="float-right">2025</em></li>
-                    <li>UltraBot Highlighted by the NBE Chief Editor <em class="float-right">2025</em></li>
+                    <li>Chinese Association of Automation Youth Academic Conference Best Poster Award (1st/480) <em class="float-right">2026</em></li>
+                    <li>MICCAI Best Ph.D. Thesis First Runner-Up Award (ranked second among the three annual thesis awardees) <em class="float-right">2025</em></li>
+                    <li>UltraBot: <em>Nature Biomedical Engineering</em>'s Sole Chief Editor Highlight (October 2025 issue) <em class="float-right">2025</em></li>
                     <li>Tsinghua Outstanding Graduate <em class="float-right">2020</em></li>
                   </ul>
                 </div>
@@ -204,11 +187,24 @@
 
           <div class="card border-0 shadow-sm bg-white">
             <div class="card-body p-4">
-              <h2 class="h5"><i class="fas fa-seedling text-success"></i> Academic Service</h2>
+              <h2 class="h5 section-heading"><i class="fas fa-handshake"></i> Academic Service</h2>
               <ul class="activity-list small mb-0">
                 <li><strong>Area Chair:</strong> CVPR 2027</li>
-                <li><strong>Journal reviewer:</strong> Nature Communications, IEEE T-RO, npj Digital Medicine, Medical Image Analysis, Scientific Data, Scientific Reports</li>
-                <li><strong>Conference reviewer:</strong> CVPR, ICCV, ECCV, MICCAI</li>
+                <li>Journal reviewer: Nature Communications, IEEE T-RO, npj Digital Medicine, Medical Image Analysis, Scientific Data, Scientific Reports</li>
+                <li>Conference reviewer: CVPR, ICCV, ECCV, MICCAI</li>
+              </ul>
+            </div>
+          </div>
+          <div class="card border-0 shadow-sm bg-white mt-3">
+            <div class="card-body p-4">
+              <h2 class="h5 section-heading"><i class="fas fa-microphone"></i> Recent Talks</h2>
+              <ul class="activity-list small mb-0">
+                <li><span>Sep. 2026</span> Autonomous Robotic Cardiovascular Ultrasound — <a href="https://sites.google.com/view/homepageoflixiang" target="_blank" rel="noopener">Prof. Xiang Li</a> and <a href="https://www.surgery.cuhk.edu.hk/profile.asp?alias=lizheng" target="_blank" rel="noopener">Prof. Zheng Li</a></li>
+                <li><span>Mar. 2026</span> Autonomous Robotic Cardiovascular Ultrasound — <a href="https://scholar.google.com/citations?user=J27J2VUAAAAJ&amp;hl=en&amp;oi=sra" target="_blank" rel="noopener">Prof. Dong Ni's lab</a></li>
+                <li><span>Feb. 2026</span> Autonomous Robotic Cardiovascular Ultrasound — <a href="https://scholar.google.com/citations?user=on2DUKoAAAAJ&amp;hl=en&amp;oi=ao" target="_blank" rel="noopener">Prof. David Ouyang's lab</a></li>
+                <li><span>Oct. 2025</span> Intelligent Ultrasound Robot — <a href="https://pranavrajpurkar.com/" target="_blank" rel="noopener">Prof. Pranav Rajpurkar's lab</a> · <a href="https://www.youtube.com/watch?v=YfVaboV46iE" target="_blank" rel="noopener">English video</a></li>
+                <li><span>Sep. 2025</span> Intelligent Ultrasound Robot — <a href="https://hit-webinar.com/" target="_blank" rel="noopener">HiT Webinar</a> · <a href="https://www.bilibili.com/video/BV1GoWGzKEQu/" target="_blank" rel="noopener">Chinese video</a></li>
+                <li><span>Sep. 2025</span> Intelligent Ultrasound Robot — <a href="https://miccaimsb.github.io/msb-doctoral25/agenda.html" target="_blank" rel="noopener">MICCAI 2025 Doctoral Consortium</a></li>
               </ul>
             </div>
           </div>
