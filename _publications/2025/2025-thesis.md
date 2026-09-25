@@ -14,6 +14,4 @@ authors:
   - Gao Huang
 links:
   Paper: https://drive.google.com/file/d/1TIGpp735KtwBL4coieHFdGGkqbq6wTcb/view?usp=sharing
-  Video: https://drive.google.com/file/d/15azg9NDJsGw8__15pgdd8eD0WSxsRJz3/view?usp=sharing
-  Award: https://miccai.org/index.php/publications/newsletters/december-winter-2025/miccai-student-board-update/
 ---
