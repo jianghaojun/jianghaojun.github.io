@@ -20,5 +20,5 @@ authors:
 links:
   Paper: https://arxiv.org/abs/2509.13832
   Code: https://github.com/LeapLabTHU/UltraHiT
-  Demos: https://drive.google.com/file/d/1Uj6awRDqt3LxEWV95DiftaPzehMaHMpo/view?usp=sharing
+  Demo: https://drive.google.com/file/d/1Uj6awRDqt3LxEWV95DiftaPzehMaHMpo/view?usp=sharing
 ---
